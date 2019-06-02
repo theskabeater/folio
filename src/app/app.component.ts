@@ -13,7 +13,7 @@ import {Component} from '@angular/core';
           <router-outlet></router-outlet>
         </div>
 
-        <nav app-navigation class="sidenav"></nav>
+        <nav app-navigation class="sidenav" [clr-nav-level]="1"></nav>
       </div>
     </clr-main-container>
   `,
