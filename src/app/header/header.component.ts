@@ -1,33 +1,34 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: "app-header",
-  template: `
-    <div class="branding">
-      <a href="/" class="nav-link">
-        <clr-icon shape="keyboard" class="is-inverse"></clr-icon>
-        <span class="title">
-          ericmoncada
-        </span>
-      </a>
-    </div>
-    <div class="header-actions">
-      <a class="nav-link nav-text" href="mailto:me@ericmoncada.com">
-        me@ericmoncada.com
-      </a>
-    </div>
-  `,
-  styles: [
+    selector: "app-header",
+    template: `
+        <div class="branding">
+            <a routerLink="/" class="nav-link">
+                <span class="title">
+                    Eric Moncada
+                </span>
+            </a>
+        </div>
+        <div class="header-actions">
+            <a
+                class="nav-link nav-text"
+                href="https:www.github.com/theskabeater"
+                target="_blank"
+            >
+                <fa name="github" size="2x"></fa>
+            </a>
+            <a
+                class="nav-link nav-text"
+                href="https://www.linkedin.com/in/eric-moncada/"
+                target="_blank"
+            >
+                <fa name="linkedin" size="2x"></fa>
+            </a>
+            <a class="nav-link nav-text" href="mailto:me@ericmoncada.com">
+                <fa name="envelope" size="2x"></fa>
+            </a>
+        </div>
     `
-      :host {
-        display: flex;
-        flex: 1;
-      }
-    `
-  ]
 })
-export class HeaderComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class HeaderComponent {}

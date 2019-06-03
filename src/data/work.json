@@ -1,0 +1,35 @@
+[
+    {
+        "slug": "pom-wonderful",
+        "name": "Pom Wonderful",
+        "url": "http://www.pomwonderful.com",
+        "company": "Impossible Bureau",
+        "year": "2016",
+        "role": "Lead Engineer",
+        "stack": "React, Redux, PixiJS, JSON Schema, Webpack",
+        "awards": ["awwwards"],
+        "layout": [
+            {
+                "image": "pom01.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+                "image": "pom02.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+                "image": "pom03.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        ]
+    },
+    {
+        "company": "Ignition Creative"
+    },
+    {
+        "company": "Fantasy"
+    },
+    {
+        "company": "Struck"
+    }
+]
