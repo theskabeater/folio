@@ -12,23 +12,34 @@ import {Component} from '@angular/core';
         </div>
         <div class="header-actions">
             <a
-                class="nav-link nav-text"
+                class="nav-link"
                 href="https:www.github.com/theskabeater"
                 target="_blank"
             >
-                <fa name="github" size="2x"></fa>
+                <fa name="github"></fa>
             </a>
             <a
-                class="nav-link nav-text"
+                class="nav-link"
                 href="https://www.linkedin.com/in/eric-moncada/"
                 target="_blank"
             >
-                <fa name="linkedin" size="2x"></fa>
+                <fa name="linkedin"></fa>
             </a>
-            <a class="nav-link nav-text" href="mailto:me@ericmoncada.com">
-                <fa name="envelope" size="2x"></fa>
+            <a class="nav-link" href="mailto:me@ericmoncada.com">
+                <fa name="envelope"></fa>
             </a>
         </div>
-    `
+    `,
+    styles: [
+        `
+            .header-actions {
+                padding: 0 0.5rem;
+            }
+
+            .header-actions .nav-link {
+                padding: 0 0.5rem;
+            }
+        `
+    ]
 })
 export class HeaderComponent {}
