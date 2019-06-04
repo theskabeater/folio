@@ -36,21 +36,20 @@ interface Awarder extends AccoladeData {
                     <p class="credits p8">
                         <i>{{ award.projectCredits }}</i>
                     </p>
-                    <p>
-                        <fa name="trophy"></fa> {{ award.accolade }}
-                        <br />
-                        <clr-icon shape="calendar"></clr-icon> {{ award.date }}
-                    </p>
-                    <p>
-                        <clr-icon shape="link"></clr-icon>
-                        <a [href]="award.url" target="_blank">
-                            Award
-                        </a>
-                        <br />
-                        <clr-icon shape="link"></clr-icon>
-                        <a [href]="award.projectUrl" target="_blank">
-                            {{ award.projectUrlType }}
-                        </a>
+                    <p class="p5">
+                        <app-icon-item iconShape="star">
+                            <a [href]="award.url" target="_blank">
+                                {{ award.accolade }}
+                            </a>
+                        </app-icon-item>
+                        <app-icon-item iconShape="calendar">
+                            <span>{{ award.date }}</span>
+                        </app-icon-item>
+                        <app-icon-item iconShape="link">
+                            <a [href]="award.projectUrl" target="_blank">
+                                {{ award.projectUrlType }}
+                            </a>
+                        </app-icon-item>
                     </p>
                 </div>
             </li>
@@ -58,13 +57,14 @@ interface Awarder extends AccoladeData {
     `,
     styles: [
         `
-            .awards {
+            .awards,
+            .awards .p5 {
                 padding-left: 0.5rem;
             }
 
             .credits {
                 opacity: 0.6;
-                margin-top: 0;
+                margin: 0;
             }
         `
     ]

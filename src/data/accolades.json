@@ -77,14 +77,8 @@
         "awards": [
             {
                 "projectId": "impossible-bureau",
-                "accolade": "Website of the Day",
-                "date": "October 21, 2014",
-                "url": "https://www.cssdesignawards.com/sites/impossible-bureau/25420/"
-            },
-            {
-                "projectId": "impossible-bureau",
-                "accolade": "Website of the Month",
-                "date": "October 2014",
+                "accolade": "Website of the Day & Website of the Month",
+                "date": "October 21, 2014 / October 2014",
                 "url": "https://www.cssdesignawards.com/sites/impossible-bureau/25420/"
             }
         ]

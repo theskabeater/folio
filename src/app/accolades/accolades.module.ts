@@ -4,6 +4,7 @@ import {ClarityModule} from '@clr/angular';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 import {AccodalesComponent} from '../accodales/accodales.component';
+import {SharedModule} from '../shared/shared.module';
 import {AccoladesRoutingModule} from './accolades-routing.module';
 
 @NgModule({
@@ -12,7 +13,8 @@ import {AccoladesRoutingModule} from './accolades-routing.module';
         CommonModule,
         AngularFontAwesomeModule,
         ClarityModule,
-        AccoladesRoutingModule
+        AccoladesRoutingModule,
+        SharedModule
     ]
 })
 export class AccoladesModule {}

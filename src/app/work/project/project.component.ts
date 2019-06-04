@@ -18,12 +18,16 @@ interface Project extends WorkData {
         <ng-container *ngIf="project$ | async; let project">
             <h2>{{ project.projectName }}</h2>
             <strong>{{ project.credits }}</strong>
-            <p>
-                <clr-icon shape="calendar"></clr-icon> {{ project.year }}
-                <br />
-                <clr-icon shape="lightbulb"></clr-icon> {{ project.role }}
-                <br />
-                <clr-icon shape="computer"></clr-icon> {{ project.stack }}
+            <p class="p5 icon-list">
+                <app-icon-item iconShape="calendar">
+                    {{ project.year }}
+                </app-icon-item>
+                <app-icon-item iconShape="lightbulb">
+                    {{ project.role }}
+                </app-icon-item>
+                <app-icon-item iconShape="computer">
+                    {{ project.stack }}
+                </app-icon-item>
             </p>
             <div *ngFor="let item of project.layout" class="card">
                 <figure class="card-block">
