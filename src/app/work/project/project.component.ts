@@ -5,15 +5,19 @@ import {combineLatest} from 'rxjs';
 import {map} from 'rxjs/operators';
 import {ProjectData, WorkData} from 'src/app/shared/models/data.model';
 import {DataService} from 'src/app/shared/services/data.service';
+import {parseCredits} from 'src/app/shared/utils/data.utils';
 
-type Project = WorkData & ProjectData;
+interface Project extends WorkData {
+    projectName: ProjectData["name"];
+    projectCredits: string;
+}
 
 @Component({
     selector: "app-work-project",
     template: `
         <ng-container *ngIf="project$ | async; let project">
-            <h2>{{ project.name }}</h2>
-            <strong>{{ project.credits | call: getCredits }}</strong>
+            <h2>{{ project.projectName }}</h2>
+            <strong>{{ project.credits }}</strong>
             <p>
                 <clr-icon shape="calendar"></clr-icon> {{ project.year }}
                 <br />
@@ -58,7 +62,8 @@ export class ProjectComponent {
 
                 return {
                     ...workData,
-                    ...projectData
+                    projectName: projectData.name,
+                    projectCredits: parseCredits(projectData.credits)
                 };
             }
         )
@@ -68,7 +73,4 @@ export class ProjectComponent {
         protected readonly data: DataService,
         private readonly route: ActivatedRoute
     ) {}
-
-    protected readonly getCredits = (credits: Project["credits"]) =>
-        credits.join(", ").trim();
 }

@@ -1,6 +1,6 @@
 [
     {
-        "awarder": "Academy of Television Arts & Science",
+        "name": "Academy of Television Arts & Science",
         "url": "https://www.emmys.com",
         "awards": [
             {
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "awarder": "Awwwards",
+        "name": "Awwwards",
         "url": "https://www.awwwards.com/",
         "awards": [
             {
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "awarder": "Cannes Lions",
+        "name": "Cannes Lions",
         "url": "https://www.canneslions.com/",
         "awards": [
             {
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "awarder": "CSS Awards",
+        "name": "CSS Awards",
         "url": "https://www.cssawards.net/",
         "awards": [
             {
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "awarder": "CSS Design Awards (CSSDA)",
+        "name": "CSS Design Awards (CSSDA)",
         "url": "https://www.cssdesignawards.com/",
         "awards": [
             {
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "awarder": "The Favorite Web Award (FWA)",
+        "name": "The Favorite Web Award (FWA)",
         "url": "https://www.thefwa.com",
         "awards": [
             {
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "awarder": "The Webby Awards",
+        "name": "The Webby Awards",
         "url": "https://www.webbyawards.com",
         "awards": [
             {

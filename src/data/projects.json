@@ -2,24 +2,28 @@
     {
         "id": "wind-and-words",
         "name": "Wind and Words",
+        "urlType": "Website",
         "url": "http://beta.wind-and-words.com/",
         "credits": ["Impossible Bureau"]
     },
     {
         "id": "pom-wonderful",
         "name": "Pom Wonderful",
+        "urlType": "Website",
         "url": "http://www.pomwonderful.com",
         "credits": ["Impossible Bureau", "The Wonderful Company"]
     },
     {
         "id": "impossible-bureau",
         "name": "Impossible Bureau",
+        "urlType": "Website",
         "url": "http://www.impossible-bureau.com/",
         "credits": ["Impossible Bureau"]
     },
     {
         "id": "watch-dogs",
         "name": "Watch Dogs ctOS",
+        "urlType": "Website",
         "url": "http://chicago-ctos.com/",
         "credits": ["Impossible Bureau", "Ignition Creative", "Ubisoft"]
     },
