@@ -48,7 +48,7 @@ interface Awarder extends AccoladeData {
                         </a>
                         <br />
                         <clr-icon shape="link"></clr-icon>
-                        <a [href]="award.projetUrl" target="_blank">
+                        <a [href]="award.projectUrl" target="_blank">
                             {{ award.projectUrlType }}
                         </a>
                     </p>
