@@ -26,7 +26,6 @@ import {NavigationComponent} from './navigation/navigation.component';
         AngularFontAwesomeModule,
         BrowserAnimationsModule
     ],
-    providers: [],
     bootstrap: [AppComponent]
 })
 export class AppModule {}

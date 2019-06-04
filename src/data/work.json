@@ -1,9 +1,6 @@
 [
     {
-        "slug": "pom-wonderful",
-        "name": "Pom Wonderful",
-        "url": "http://www.pomwonderful.com",
-        "company": "Impossible Bureau",
+        "projectId": "pom-wonderful",
         "year": "2016",
         "role": "Lead Engineer",
         "stack": "React, Redux, PixiJS, JSON Schema, Webpack",

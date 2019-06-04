@@ -5,6 +5,13 @@ import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
     {
+        path: "accolades",
+        loadChildren: () =>
+            import("./accolades/accolades.module").then(
+                ({ AccoladesModule }) => AccoladesModule
+            )
+    },
+    {
         path: "work",
         loadChildren: () =>
             import("./work/work.module").then(({ WorkModule }) => WorkModule)

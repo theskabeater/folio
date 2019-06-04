@@ -1,0 +1,158 @@
+[
+    {
+        "awarder": "Academy of Television Arts & Science",
+        "url": "https://www.emmys.com",
+        "awards": [
+            {
+                "projectId": "nick-app",
+                "accolade": "Outstanding Creative Achievement in Interactive Media - User Experience and Visual Design",
+                "date": "65th Emmy Awards (2013)",
+                "url": "https://www.emmys.com/awards/nominees-winners/2013/outstanding-creative-achievement-in-interactive-media-user-experience-and-visual-design"
+            }
+        ]
+    },
+    {
+        "awarder": "Awwwards",
+        "url": "https://www.awwwards.com/",
+        "awards": [
+            {
+                "projectId": "wind-and-words",
+                "accolade": "Site of the Day",
+                "date": "November 16, 2017",
+                "url": "https://www.awwwards.com/sites/wind-and-words"
+            },
+            {
+                "projectId": "impossible-bureau",
+                "accolade": "Site of the Day",
+                "date": "December 15, 2014",
+                "url": "https://www.awwwards.com/sites/impossible-bureau"
+            },
+            {
+                "projectId": "watch-dogs",
+                "accolade": "Site of the Day",
+                "date": "March 31, 2014",
+                "url": "https://www.awwwards.com/sites/watch-dogs-ctos"
+            },
+            {
+                "projectId": "project-rebrief",
+                "accolade": "Site of the Day",
+                "date": "April 23, 2012",
+                "url": "https://www.awwwards.com/sites/project-re-brief"
+            }
+        ]
+    },
+    {
+        "awarder": "Cannes Lions",
+        "url": "https://www.canneslions.com/",
+        "awards": [
+            {
+                "projectId": "project-rebrief",
+                "accolade": "Silver Cyber Lion - Websites and Microsites in Advertising and Media",
+                "date": "June 19, 2012",
+                "url": "https://adage.com/article/special-report-cannes-2012/google-wins-inaugural-mobile-grand-prix/235466"
+            }
+        ]
+    },
+    {
+        "awarder": "CSS Awards",
+        "url": "https://www.cssawards.net/",
+        "awards": [
+            {
+                "projectId": "wind-and-words",
+                "accolade": "Winner",
+                "date": "November 7, 2017",
+                "url": "https://www.cssawards.net/website/wind-and-words/"
+            },
+            {
+                "projectId": "pom-wonderful",
+                "accolade": "Winner",
+                "date": "October 27, 2017",
+                "url": "https://www.cssawards.net/website/pom-wonderful/"
+            }
+        ]
+    },
+    {
+        "awarder": "CSS Design Awards (CSSDA)",
+        "url": "https://www.cssdesignawards.com/",
+        "awards": [
+            {
+                "projectId": "impossible-bureau",
+                "accolade": "Website of the Day",
+                "date": "October 21, 2014",
+                "url": "https://www.cssdesignawards.com/sites/impossible-bureau/25420/"
+            },
+            {
+                "projectId": "impossible-bureau",
+                "accolade": "Website of the Month",
+                "date": "October 2014",
+                "url": "https://www.cssdesignawards.com/sites/impossible-bureau/25420/"
+            }
+        ]
+    },
+    {
+        "awarder": "The Favorite Web Award (FWA)",
+        "url": "https://www.thefwa.com",
+        "awards": [
+            {
+                "projectId": "wind-and-words",
+                "accolade": "Site of the Day",
+                "date": "December 12, 2016",
+                "url": "https://thefwa.com/cases/wind-and-words"
+            },
+            {
+                "projectId": "watch-dogs",
+                "accolade": "Site of the Day",
+                "date": "May 12, 2014",
+                "url": "https://thefwa.com/cases/watch-dogs-ctos"
+            },
+            {
+                "projectId": "sony-connected-world",
+                "accolade": "Site of the Day",
+                "date": "July 31, 2013",
+                "url": "https://thefwa.com/cases/fi-s-sony-connected-world-case-study"
+            },
+            {
+                "projectId": "nickelodeon-kca",
+                "accolade": "Mobile of the Day",
+                "date": "April 12, 2012",
+                "url": "https://thefwa.com/cases/kids-choice-awards-mobile-application"
+            },
+            {
+                "projectId": "broadway",
+                "accolade": "Mobile of the Day",
+                "date": "April 02, 2012",
+                "url": "https://thefwa.com/cases/broadway-com-ipad-application"
+            },
+            {
+                "projectId": "project-rebrief",
+                "accolade": "Site of the Day",
+                "date": "March 29, 2012",
+                "url": "https://thefwa.com/cases/project-rebrief"
+            },
+            {
+                "projectId": "porsche-everyday",
+                "accolade": "Site of the Day",
+                "date": "June 03, 2011",
+                "url": "https://thefwa.com/cases/porsche-everyday"
+            },
+            {
+                "projectId": "messages-for-japan",
+                "accolade": "Site of the Day",
+                "date": "May 11, 2011",
+                "url": "https://thefwa.com/cases/messages-for-japan"
+            }
+        ]
+    },
+    {
+        "awarder": "The Webby Awards",
+        "url": "https://www.webbyawards.com",
+        "awards": [
+            {
+                "projectId": "cannes-heatmap",
+                "accolade": "Mobile Site & Apps - Best Use of GPS or Location Technology",
+                "date": "16th Webby Awards (2012)",
+                "url": "https://www.webbyawards.com/winners/2012/mobile-apps/mobile-apps-features-categories-all-devices/best-use-of-gps-or-location-technology/google-cannes-heatmap/"
+            }
+        ]
+    }
+]

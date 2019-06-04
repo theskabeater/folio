@@ -1,8 +1,5 @@
 export interface WorkData {
-    slug: string;
-    name: string;
-    url: string;
-    company: string;
+    projectId: ProjectData["id"];
     year: string;
     role: string;
     awards: Array<string>;
@@ -12,4 +9,11 @@ export interface WorkData {
 export interface LayoutItem {
     image: "string";
     description: string;
+}
+
+export interface ProjectData {
+    id: string;
+    name: string;
+    url: string;
+    credits: Array<string>;
 }

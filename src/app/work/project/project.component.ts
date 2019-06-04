@@ -3,14 +3,17 @@ import {ActivatedRoute} from '@angular/router';
 import * as _ from 'lodash';
 import {combineLatest} from 'rxjs';
 import {map} from 'rxjs/operators';
-import {DataService} from 'src/app/shared/data.service';
+import {ProjectData, WorkData} from 'src/app/shared/models/data.model';
+import {DataService} from 'src/app/shared/services/data.service';
+
+type Project = WorkData & ProjectData;
 
 @Component({
     selector: "app-work-project",
     template: `
         <ng-container *ngIf="project$ | async; let project">
             <h2>{{ project.name }}</h2>
-            <strong>{{ project.company }}</strong>
+            <strong>{{ project.credits | call: getCredits }}</strong>
             <p>
                 <clr-icon shape="calendar"></clr-icon> {{ project.year }}
                 <br />
@@ -38,9 +41,26 @@ import {DataService} from 'src/app/shared/data.service';
     ]
 })
 export class ProjectComponent {
-    project$ = combineLatest(this.data.work$, this.route.url).pipe(
-        map(([data, routeSegments]) =>
-            _.find(data, { slug: _.first(routeSegments).path })
+    project$ = combineLatest(
+        this.data.work$,
+        this.data.projects$,
+        this.route.url
+    ).pipe(
+        map(
+            ([rawWorkData, rawProjectData, routeSegments]): Project => {
+                const workData: WorkData = _.find(rawWorkData, {
+                    projectId: _.first(routeSegments).path
+                });
+
+                const projectData: ProjectData = _.find(rawProjectData, {
+                    id: workData.projectId
+                });
+
+                return {
+                    ...workData,
+                    ...projectData
+                };
+            }
         )
     );
 
@@ -48,4 +68,7 @@ export class ProjectComponent {
         protected readonly data: DataService,
         private readonly route: ActivatedRoute
     ) {}
+
+    protected readonly getCredits = (credits: Project["credits"]) =>
+        credits.join(", ").trim();
 }

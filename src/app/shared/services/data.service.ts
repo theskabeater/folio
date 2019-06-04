@@ -2,12 +2,13 @@ import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs';
 
-import {WorkData} from './data.model';
+import {ProjectData, WorkData} from '../models/data.model';
 
 @Injectable({
     providedIn: "root"
 })
 export class DataService {
+    projects$ = this.getData<ProjectData>("projects");
     work$ = this.getData<WorkData>("work");
 
     constructor(private readonly http: HttpClient) {}
