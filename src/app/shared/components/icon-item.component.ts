@@ -21,5 +21,5 @@ import {Component, Input} from '@angular/core';
     ]
 })
 export class IconItemComponent {
-    @Input() protected iconShape: string;
+    @Input() iconShape: string;
 }
