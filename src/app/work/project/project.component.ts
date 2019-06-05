@@ -33,7 +33,7 @@ interface Project extends WorkData {
                 <figure class="card-block">
                     <img
                         class="project-image"
-                        [src]="'/assets/work/' + item.image"
+                        [src]="'/assets/images/' + item.image"
                     />
                     <figcaption class="p3">{{ item.description }}</figcaption>
                 </figure>
@@ -44,6 +44,10 @@ interface Project extends WorkData {
         `
             .project-image {
                 width: 100%;
+            }
+
+            figure.card-block {
+                margin: 0;
             }
         `
     ]
