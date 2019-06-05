@@ -3,6 +3,13 @@ import {Component, OnInit} from '@angular/core';
 @Component({
     selector: "app-navigation",
     template: `
+        <a
+            clrVerticalNavLink
+            routerLink="/experience"
+            routerLinkActive="active"
+        >
+            Experience
+        </a>
         <a clrVerticalNavLink routerLink="/accolades" routerLinkActive="active">
             Accolades
         </a>

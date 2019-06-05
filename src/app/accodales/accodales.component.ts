@@ -21,39 +21,52 @@ interface Awarder extends AccoladeData {
 @Component({
     selector: "app-accodales",
     template: `
-        <h2>
-            Accolades
-        </h2>
-        <ul class="list-unstyled">
-            <li *ngFor="let awarder of accolades$ | async" class="awarder">
-                <h4>
-                    <a [href]="awarder.url" target="_blank">
-                        {{ awarder.name }}
-                    </a>
-                </h4>
-                <div *ngFor="let award of awarder.awards" class="awards">
-                    <h6>{{ award.projectName }}</h6>
-                    <p class="credits p8">
-                        <i>{{ award.projectCredits }}</i>
-                    </p>
-                    <p class="p5">
-                        <app-icon-item iconShape="star">
-                            <a [href]="award.url" target="_blank">
-                                {{ award.accolade }}
+        <app-content>
+            <ng-container skinny>
+                <h2>
+                    Accolades
+                </h2>
+                <ul class="list-unstyled">
+                    <li
+                        *ngFor="let awarder of accolades$ | async"
+                        class="awarder"
+                    >
+                        <h4>
+                            <a [href]="awarder.url" target="_blank">
+                                {{ awarder.name }}
                             </a>
-                        </app-icon-item>
-                        <app-icon-item iconShape="calendar">
-                            <span>{{ award.date }}</span>
-                        </app-icon-item>
-                        <app-icon-item iconShape="link">
-                            <a [href]="award.projectUrl" target="_blank">
-                                {{ award.projectUrlType }}
-                            </a>
-                        </app-icon-item>
-                    </p>
-                </div>
-            </li>
-        </ul>
+                        </h4>
+                        <div
+                            *ngFor="let award of awarder.awards"
+                            class="awards"
+                        >
+                            <h6>{{ award.projectName }}</h6>
+                            <p class="credits p8">
+                                <i>{{ award.projectCredits }}</i>
+                            </p>
+                            <p class="p5">
+                                <app-icon-item iconShape="star">
+                                    <a [href]="award.url" target="_blank">
+                                        {{ award.accolade }}
+                                    </a>
+                                </app-icon-item>
+                                <app-icon-item iconShape="calendar">
+                                    <span>{{ award.date }}</span>
+                                </app-icon-item>
+                                <app-icon-item iconShape="link">
+                                    <a
+                                        [href]="award.projectUrl"
+                                        target="_blank"
+                                    >
+                                        {{ award.projectUrlType }}
+                                    </a>
+                                </app-icon-item>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </ng-container>
+        </app-content>
     `,
     styles: [
         `

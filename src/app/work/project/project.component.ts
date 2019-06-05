@@ -15,30 +15,36 @@ interface Project extends WorkData {
 @Component({
     selector: "app-work-project",
     template: `
-        <ng-container *ngIf="project$ | async; let project">
-            <h2>{{ project.projectName }}</h2>
-            <strong>{{ project.credits }}</strong>
-            <p class="p5 icon-list">
-                <app-icon-item iconShape="calendar">
-                    {{ project.year }}
-                </app-icon-item>
-                <app-icon-item iconShape="lightbulb">
-                    {{ project.role }}
-                </app-icon-item>
-                <app-icon-item iconShape="computer">
-                    {{ project.stack }}
-                </app-icon-item>
-            </p>
-            <div *ngFor="let item of project.layout" class="card">
-                <figure class="card-block">
-                    <img
-                        class="project-image"
-                        [src]="'/assets/images/' + item.image"
-                    />
-                    <figcaption class="p3">{{ item.description }}</figcaption>
-                </figure>
-            </div>
-        </ng-container>
+        <app-content *ngIf="project$ | async; let project">
+            <ng-container skinny>
+                <h2>{{ project.projectName }}</h2>
+                <strong>{{ project.credits }}</strong>
+                <p class="p5 icon-list">
+                    <app-icon-item iconShape="calendar">
+                        {{ project.year }}
+                    </app-icon-item>
+                    <app-icon-item iconShape="lightbulb">
+                        {{ project.role }}
+                    </app-icon-item>
+                    <app-icon-item iconShape="computer">
+                        {{ project.stack }}
+                    </app-icon-item>
+                </p>
+            </ng-container>
+            <ng-container wide>
+                <div *ngFor="let item of project.layout" class="card">
+                    <figure class="card-block">
+                        <img
+                            class="project-image"
+                            [src]="'/assets/images/' + item.image"
+                        />
+                        <figcaption class="p3">
+                            {{ item.description }}
+                        </figcaption>
+                    </figure>
+                </div>
+            </ng-container>
+        </app-content>
     `,
     styles: [
         `

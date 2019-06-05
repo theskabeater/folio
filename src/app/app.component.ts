@@ -9,11 +9,7 @@ import {Component} from '@angular/core';
             </clr-header>
             <div class="content-container">
                 <div class="content-area">
-                    <div class="clr-row">
-                        <div class="clr-col-sm-12 clr-col-lg-8">
-                            <router-outlet></router-outlet>
-                        </div>
-                    </div>
+                    <router-outlet></router-outlet>
                 </div>
                 <clr-vertical-nav [clr-nav-level]="1">
                     <app-navigation></app-navigation>

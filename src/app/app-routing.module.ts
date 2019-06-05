@@ -5,6 +5,13 @@ import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
     {
+        path: "experience",
+        loadChildren: () =>
+            import("./experience/experience.module").then(
+                module => module.ExperienceModule
+            )
+    },
+    {
         path: "accolades",
         loadChildren: () =>
             import("./accolades/accolades.module").then(
