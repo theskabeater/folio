@@ -8,13 +8,13 @@ const routes: Routes = [
         path: "accolades",
         loadChildren: () =>
             import("./accolades/accolades.module").then(
-                ({ AccoladesModule }) => AccoladesModule
+                module => module.AccoladesModule
             )
     },
     {
         path: "work",
         loadChildren: () =>
-            import("./work/work.module").then(({ WorkModule }) => WorkModule)
+            import("./work/work.module").then(module => module.WorkModule)
     },
     {
         path: "",
