@@ -65,10 +65,7 @@ interface Awarder extends AccoladeData {
     ]
 })
 export class AccoladesComponent {
-    protected readonly accolades$ = combineLatest(
-        this.data.accolades$,
-        this.data.projects$
-    ).pipe(
+    accolades$ = combineLatest(this.data.accolades$, this.data.projects$).pipe(
         map(
             ([rawAccoladesData, rawProjectData]): Array<Awarder> =>
                 rawAccoladesData.map(rawAccoladeData => ({
@@ -90,11 +87,11 @@ export class AccoladesComponent {
         )
     );
 
-    protected readonly contentListConfig: Config = {
+    contentListConfig: Config = {
         nameKey: "name",
         childKey: "awards",
         childNameKey: "projectName"
     };
 
-    constructor(protected readonly data: DataService) {}
+    constructor(public data: DataService) {}
 }

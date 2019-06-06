@@ -50,5 +50,5 @@ import {DataService} from '../shared/services/data.service';
     ]
 })
 export class ExperienceComponent {
-    constructor(protected readonly data: DataService) {}
+    constructor(public data: DataService) {}
 }

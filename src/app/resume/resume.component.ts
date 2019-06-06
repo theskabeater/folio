@@ -39,15 +39,15 @@ import {DataService} from '../shared/services/data.service';
     `
 })
 export class ResumeComponent {
-    protected readonly contentListConfig: Config = {
+    contentListConfig: Config = {
         nameKey: "company",
         childKey: "items",
         childNameKey: "title"
     };
 
-    constructor(protected readonly data: DataService) {}
+    constructor(public data: DataService) {}
 
-    protected readonly resume$ = this.data.resume$.pipe(
+    resume$ = this.data.resume$.pipe(
         map(resumeData =>
             resumeData.map(job => ({
                 ...job,

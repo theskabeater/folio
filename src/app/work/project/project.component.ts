@@ -84,7 +84,7 @@ export class ProjectComponent {
     );
 
     constructor(
-        protected readonly data: DataService,
+        public data: DataService,
         private readonly route: ActivatedRoute
     ) {}
 }
