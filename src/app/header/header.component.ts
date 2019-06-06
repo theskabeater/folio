@@ -40,7 +40,7 @@ import {Component} from '@angular/core';
                 padding: 0 0.5rem;
             }
 
-            .header-actions .nav-link:hover fa {
+            :host .nav-link:hover fa {
                 color: white;
             }
         `
