@@ -25,6 +25,9 @@ import {Component, OnInit} from '@angular/core';
                 </a>
             </clr-vertical-nav-group-children>
         </clr-vertical-nav-group>
+        <a clrVerticalNavLink routerLink="/resume" routerLinkActive="active">
+            Résumé
+        </a>
     `
 })
 export class NavigationComponent implements OnInit {

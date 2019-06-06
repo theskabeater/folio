@@ -9,6 +9,7 @@ import {AppComponent} from './app.component';
 import {HeaderComponent} from './header/header.component';
 import {HomeComponent} from './home/home.component';
 import {NavigationComponent} from './navigation/navigation.component';
+import {ResumeModule} from './resume/resume.module';
 import {SharedModule} from './shared/shared.module';
 
 @NgModule({
@@ -24,7 +25,8 @@ import {SharedModule} from './shared/shared.module';
         AppRoutingModule,
         SharedModule,
         AngularFontAwesomeModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        ResumeModule
     ],
     bootstrap: [AppComponent]
 })

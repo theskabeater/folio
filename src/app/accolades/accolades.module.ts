@@ -3,12 +3,12 @@ import {NgModule} from '@angular/core';
 import {ClarityModule} from '@clr/angular';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
-import {AccodalesComponent} from '../accodales/accodales.component';
 import {SharedModule} from '../shared/shared.module';
 import {AccoladesRoutingModule} from './accolades-routing.module';
+import {AccoladesComponent} from './accolades.component';
 
 @NgModule({
-    declarations: [AccodalesComponent],
+    declarations: [AccoladesComponent],
     imports: [
         CommonModule,
         AngularFontAwesomeModule,

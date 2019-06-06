@@ -82,7 +82,7 @@ interface Awarder extends AccoladeData {
         `
     ]
 })
-export class AccodalesComponent {
+export class AccoladesComponent {
     accolades$ = combineLatest(this.data.accolades$, this.data.projects$).pipe(
         map(
             ([rawAccoladesData, rawProjectData]): Array<Awarder> =>
