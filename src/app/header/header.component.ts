@@ -39,6 +39,10 @@ import {Component} from '@angular/core';
             .header-actions .nav-link {
                 padding: 0 0.5rem;
             }
+
+            .header-actions .nav-link:hover fa {
+                color: white;
+            }
         `
     ]
 })
