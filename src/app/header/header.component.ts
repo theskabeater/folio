@@ -13,7 +13,7 @@ import {Component} from '@angular/core';
         <div class="header-actions">
             <a
                 class="nav-link"
-                href="https:www.github.com/theskabeater"
+                href="https://www.github.com/theskabeater"
                 target="_blank"
             >
                 <fa name="github"></fa>
