@@ -1,0 +1,135 @@
+[
+    {
+        "company": "SaltStack",
+        "url": "https://www.saltstack.com/",
+        "title": "Senior Software Engineer",
+        "date": "03/2018 - Present",
+        "description": "As a senior engineer on the Enterprise UI team, I’m responsible for shipping features and committing to/closing 2- week sprints. I create, close and work on new tickets; collaborate with the scrum master, product managers, backend team, UX team and QA team; and ensure quality code is delivered each sprint.",
+        "stack": [
+            "RxJS",
+            "TypeScript",
+            "Angular 7",
+            "Ngrx (Redux)",
+            "Jest",
+            "Scss",
+            "Prettier"
+        ]
+    },
+    {
+        "company": "adMind",
+        "url": "https://www.admind.io/",
+        "title": "Lead Developer",
+        "date": "06/2017 - 03/2018",
+        "list": [
+            "Lead developer on UserId, a SaaS tool for Google Analytics User-ID reports. The technology is built on Laravel 5.4 extending the Spark library using the Stripe payment processor",
+            "Utilized previous creative development and design experience to revamp client landing pages and create internal assets used for client proposals",
+            "Introduced Flux architecture to development team to use in existing Vue application",
+            "Gained knowledge in Webflow and enhanced PHP skills using the Laravel framework",
+            "Implemented Google Analytics audits and several Google Tag Manager setups",
+            "Contributed to the sales process from lead to closing deal and delivery",
+            "Performed web integrations with Zoho, AdWords and CallRail using Google Cloud functions and custom frontend/backend integrations"
+        ],
+        "stack": [
+            "Laravel",
+            "WordPress",
+            "Vue",
+            "React",
+            "Google Sheets",
+            "Zapier",
+            "Google Cloud Functions",
+            "Azure Web Functions",
+            "Digital Ocean, Forge",
+            "Sass"
+        ]
+    },
+    {
+        "company": "Impossible Bureau",
+        "url": "http://www.impossible-bureau.com/",
+        "title": "Associate Technical Director",
+        "date": "06/2012 - 06/2017",
+        "list": [
+            "Lead and mentored a small team of developers",
+            "Researched new technologies. Introduced Node.js, React and Redux to the dev team as well as frontend unit testing in a React app with Jest",
+            "Created several client projects from start to finish providing initial documentation, structure and architecture for other devs to build from",
+            "Won many website awards for projects I contributed to and/or lead including www.pomwonderful.com and beta.wind-and-words.com",
+            "Estimated development projects, headed daily stand-ups and implemented task management through kanban",
+            "Worked on or lead projects for POM, Ubisoft, Frito Lay, and HP",
+            "Prototyped and explored new technologies and advocated for programming best practices including design patterns, paired programming and unit testing",
+            "Successfully used the XBOX connect to perform bust scans using Skanect, exporting 3D model and importing to the web using ThreeJS"
+        ],
+        "stack": [
+            "React",
+            "Jest",
+            "Redux, MobX, McFly, Flux",
+            "Marionette, Backbone",
+            "CoffeeScript",
+            "Custom JS frameworks",
+            "PixiJS, TweenMax, ThreeJS",
+            "Heroku",
+            "Rails",
+            "jQuery",
+            "Less, Sass, Stylus"
+        ]
+    },
+    {
+        "company": "Rally Interactive",
+        "url": "https://rallyinteractive.com/",
+        "title": "Senior Director",
+        "date": "01/2012 - 06/2012",
+        "list": [
+            "Developed single page web applications using vanilla JS",
+            "Introduced CSS preprocessors (Less and Sass)",
+            "Performed maintenance and QA on the award winning National Geographic’s City Guides iOS application",
+            "Won many website awards for projects I contributed to and/or lead including www.pomwonderful.com and beta.wind-and-words.com"
+        ],
+        "stack": ["Vanilla JS (ES5)", "iOS (Objective-C)", "Less, Sass"]
+    },
+    {
+        "company": "Fantasy",
+        "url": "https://fantasy.co/",
+        "title": "Intermediate Developer",
+        "date": "11/2011 - 12/2012",
+        "list": [
+            "Worked on award winning projects for Google, Viacom (Nickelodeon) and Broadway.com",
+            "Furthered skills in iOS development and built several production iOS applications",
+            "Improved in creative development including Javascript and CSS animations",
+            "Participated in on-site client meetings at Google and Apple",
+            "Contributed to multiple award winning website’s including messagesforjapan.com which was linked on Google’s homepage"
+        ],
+        "stack": [
+            "iOS (Objective-C)",
+            "Custom JS frameworks",
+            "TweenMax",
+            "jQuery",
+            "Django",
+            "Less, Sass",
+            "Flash (AS3)",
+            "Pure MVC"
+        ]
+    },
+    {
+        "company": "Struck",
+        "url": "https://www.struck.com/",
+        "title": "Associate Developer",
+        "date": "03/2010 - 11/2011",
+        "list": [
+            "Worked on Flash websites (AS3) and installations for BYU, PepsiCo and Porsche",
+            "Improved in web development and learned to use jQuery",
+            "Implemented WordPress including installation and custom theme and plugin development",
+            "Prototyped iOS application for the first generation iPad",
+            "Practiced kanban, scrum and continuous integration",
+            "Implemented MVC and other OO design patterns"
+        ],
+        "stack": [
+            "Flash (AS3)",
+            "TweenMax (AS3)",
+            "Pure MVC",
+            "Django",
+            "Vanilla JS",
+            "WordPress",
+            "iOS (Objective-C)",
+            "jQuery",
+            "HTML/CSS"
+        ]
+    }
+]

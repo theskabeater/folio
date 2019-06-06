@@ -31,3 +31,18 @@ export interface AwardData {
     data: string;
     url: string;
 }
+
+export interface ExperienceData {
+    name: string;
+    value: string;
+}
+
+export interface ResumeData {
+    company: string;
+    url: string;
+    title: string;
+    date: string;
+    stack: Array<string>;
+    description?: string;
+    list?: Array<string>;
+}

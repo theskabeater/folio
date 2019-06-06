@@ -3,7 +3,7 @@ import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs';
 import {shareReplay} from 'rxjs/operators';
 
-import {AccoladeData, ProjectData, WorkData} from '../models/data.model';
+import {AccoladeData, ExperienceData, ProjectData, WorkData} from '../models/data.model';
 
 @Injectable({
     providedIn: "root"
@@ -12,6 +12,8 @@ export class DataService {
     projects$ = this.getData<ProjectData>("projects");
     work$ = this.getData<WorkData>("work");
     accolades$ = this.getData<AccoladeData>("accolades");
+    experience$ = this.getData<ExperienceData>("experience");
+    resume$ = this.getData<ExperienceData>("resume");
 
     constructor(private readonly http: HttpClient) {}
 
