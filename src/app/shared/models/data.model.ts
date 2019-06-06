@@ -42,7 +42,7 @@ export interface ResumeData {
     url: string;
     title: string;
     date: string;
-    stack: Array<string>;
+    stack: string;
     description?: string;
     list?: Array<string>;
 }

@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 
+import {DataService} from '../shared/services/data.service';
+
 @Component({
     selector: "app-experience",
     template: `
@@ -21,7 +23,7 @@ import {Component} from '@angular/core';
                 <div class="chart-container clr-row clr-justify-content-center">
                     <div class="clr-col">
                         <ngx-charts-bar-horizontal
-                            [results]="results"
+                            [results]="data.experience$ | async"
                             [legendTitle]="'Toolbox'"
                             [xAxisLabel]="'Experience in Years'"
                             [yAxisLabel]="'Toolbox'"
@@ -48,70 +50,5 @@ import {Component} from '@angular/core';
     ]
 })
 export class ExperienceComponent {
-    results = [
-        {
-            name: "Javascript",
-            value: 9
-        },
-        {
-            name: "RxJS",
-            value: 1.6
-        },
-        {
-            name: "Typescript",
-            value: 1.6
-        },
-        {
-            name: "Angular",
-            value: 1.6
-        },
-        {
-            name: "React",
-            value: 2
-        },
-        {
-            name: "Vue",
-            value: 0.5
-        },
-        {
-            name: "Creative Development",
-            value: 8
-        },
-        {
-            name: "AS3",
-            value: 3
-        },
-        {
-            name: "Objective-C (iOS)",
-            value: 1.3
-        },
-        {
-            name: "Programming",
-            value: 10
-        },
-        {
-            name: "Frontend",
-            value: 10
-        },
-        {
-            name: "Backend",
-            value: 4.2
-        },
-        {
-            name: "Python (Django)",
-            value: 0.5
-        },
-        {
-            name: "Ruby (Rails)",
-            value: 0.8
-        },
-        {
-            name: "Node (Keystone, Express)",
-            value: 0.8
-        },
-        {
-            name: "PHP (WordPress, Laravel)",
-            value: 3
-        }
-    ];
+    constructor(protected readonly data: DataService) {}
 }

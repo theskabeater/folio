@@ -21,6 +21,7 @@ import {Component} from '@angular/core';
                     occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
+                <figure class="me"></figure>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -33,6 +34,22 @@ import {Component} from '@angular/core';
                 </p>
             </ng-container>
         </app-content>
-    `
+    `,
+    styles: [
+        `
+            .me {
+                width: 150px;
+                height: 150px;
+                overflow: hidden;
+                background-image: url(/assets/images/me.jpg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                border-radius: 50%;
+                border: 2px solid black;
+                overflow: hidden;
+                margin: 1rem auto;
+            }
+        `
+    ]
 })
 export class HomeComponent {}

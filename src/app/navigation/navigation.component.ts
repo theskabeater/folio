@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
     selector: "app-navigation",
@@ -13,6 +13,9 @@ import {Component, OnInit} from '@angular/core';
         <a clrVerticalNavLink routerLink="/accolades" routerLinkActive="active">
             Accolades
         </a>
+        <a clrVerticalNavLink routerLink="/resume" routerLinkActive="active">
+            Résumé
+        </a>
         <clr-vertical-nav-group routerLinkActive="active">
             Work
             <clr-vertical-nav-group-children>
@@ -25,13 +28,6 @@ import {Component, OnInit} from '@angular/core';
                 </a>
             </clr-vertical-nav-group-children>
         </clr-vertical-nav-group>
-        <a clrVerticalNavLink routerLink="/resume" routerLinkActive="active">
-            Résumé
-        </a>
     `
 })
-export class NavigationComponent implements OnInit {
-    constructor() {}
-
-    ngOnInit() {}
-}
+export class NavigationComponent {}

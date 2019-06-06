@@ -2,11 +2,16 @@ import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
 import {ClarityModule} from '@clr/angular';
 
-import {AppContent} from './components/app-content.component';
+import {ContentListComponent} from './components/content-list.component';
+import {ContentComponent} from './components/content.component';
 import {IconItemComponent} from './components/icon-item.component';
 import {PipesModule} from './pipes/pipes.module';
 
-const declarations = [IconItemComponent, AppContent];
+const declarations = [
+    IconItemComponent,
+    ContentComponent,
+    ContentListComponent
+];
 const exports = [...declarations, PipesModule, ClarityModule];
 
 @NgModule({
