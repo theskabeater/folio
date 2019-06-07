@@ -27,16 +27,16 @@ import {DataService} from '../shared/services/data.service';
                     <div class="clr-col">
                         <ngx-charts-bar-horizontal
                             [results]="data.experience$ | async"
+                            [legend]="hideLabels$ | async"
                             [legendTitle]="'Toolbox'"
-                            [xAxisLabel]="'Experience in Years'"
-                            [yAxisLabel]="'Toolbox'"
-                            [legend]="showXAxisLabelAndLegend$ | async"
-                            [scheme]="'picnic'"
-                            [xAxis]="true"
-                            [yAxis]="true"
                             [showXAxisLabel]="true"
-                            [showYAxisLabel]="showXAxisLabelAndLegend$ | async"
+                            [xAxis]="hideLabels$ | async"
+                            [xAxisLabel]="'Experience in Years'"
                             [xScaleMax]="10"
+                            [showYAxisLabel]="hideLabels$ | async"
+                            [yAxis]="true"
+                            [yAxisLabel]="'Toolbox'"
+                            [scheme]="'picnic'"
                         ></ngx-charts-bar-horizontal>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ import {DataService} from '../shared/services/data.service';
     ]
 })
 export class ExperienceComponent implements OnInit {
-    showXAxisLabelAndLegend$: Observable<boolean>;
+    hideLabels$: Observable<boolean>;
 
     constructor(
         public data: DataService,
@@ -61,7 +61,7 @@ export class ExperienceComponent implements OnInit {
     ) {}
 
     ngOnInit(): void {
-        this.showXAxisLabelAndLegend$ = this.breakpointObserver
+        this.hideLabels$ = this.breakpointObserver
             .observe([Breakpoints.Large, Breakpoints.XLarge])
             .pipe(
                 map(({ matches }) => matches),
