@@ -1,4 +1,7 @@
-import {Component} from '@angular/core';
+import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import {Component, OnInit} from '@angular/core';
+import {Observable} from 'rxjs';
+import {distinctUntilChanged, map} from 'rxjs/operators';
 
 import {DataService} from '../shared/services/data.service';
 
@@ -27,12 +30,12 @@ import {DataService} from '../shared/services/data.service';
                             [legendTitle]="'Toolbox'"
                             [xAxisLabel]="'Experience in Years'"
                             [yAxisLabel]="'Toolbox'"
-                            [legend]="true"
+                            [legend]="showXAxisLabelAndLegend$ | async"
                             [scheme]="'picnic'"
                             [xAxis]="true"
                             [yAxis]="true"
                             [showXAxisLabel]="true"
-                            [showYAxisLabel]="true"
+                            [showYAxisLabel]="showXAxisLabelAndLegend$ | async"
                             [xScaleMax]="10"
                         ></ngx-charts-bar-horizontal>
                     </div>
@@ -49,6 +52,20 @@ import {DataService} from '../shared/services/data.service';
         `
     ]
 })
-export class ExperienceComponent {
-    constructor(public data: DataService) {}
+export class ExperienceComponent implements OnInit {
+    showXAxisLabelAndLegend$: Observable<boolean>;
+
+    constructor(
+        public data: DataService,
+        public breakpointObserver: BreakpointObserver
+    ) {}
+
+    ngOnInit(): void {
+        this.showXAxisLabelAndLegend$ = this.breakpointObserver
+            .observe([Breakpoints.Large, Breakpoints.XLarge])
+            .pipe(
+                map(({ matches }) => matches),
+                distinctUntilChanged()
+            );
+    }
 }
