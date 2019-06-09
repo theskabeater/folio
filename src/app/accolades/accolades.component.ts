@@ -24,9 +24,7 @@ interface Awarder extends AccoladeData {
                     [config]="contentListConfig"
                 >
                     <ng-template let-award #subheader>
-                        <i class="credits p8 credits">{{
-                            award.projectCredits
-                        }}</i>
+                        <i class="p8">{{ award.projectCredits }}</i>
                     </ng-template>
                     <ng-template let-award #content>
                         <app-icon-item iconShape="star">
@@ -46,15 +44,7 @@ interface Awarder extends AccoladeData {
                 </app-content-list>
             </ng-container>
         </app-content>
-    `,
-    styles: [
-        `
-            .subheader {
-                opacity: 0.6;
-                margin: 0;
-            }
-        `
-    ]
+    `
 })
 export class AccoladesComponent {
     accolades$ = combineLatest(this.data.accolades$, this.data.projects$).pipe(

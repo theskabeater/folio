@@ -14,7 +14,7 @@ type Work = WorkData & Project;
         <app-content *ngIf="work$ | async; let project">
             <ng-container skinny>
                 <h2>{{ project.projectName }}</h2>
-                <strong>{{ project.projectCredits }}</strong>
+                <i class="p8">{{ project.projectCredits }}</i>
                 <p class="p5 icon-list">
                     <app-icon-item iconShape="calendar">
                         {{ project.year }}
