@@ -15,7 +15,7 @@
             },
             {
                 "image": "sse03.png",
-                "description": "I'm still an engineer at SaltStack and I have the pleasure to continually lead in the efforts of new feature development."
+                "description": "I'm still an engineer at SaltStack and I have the pleasure to continually lead in the efforts of new feature development, code reviews and architecture for the enterprise application."
             }
         ]
     },
@@ -107,15 +107,15 @@
         "layout": [
             {
                 "image": "ctos01.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Impossible Bureau was approached to develop the ctOS website for the up coming game Watch Dogs. The intention of the website was to present the user with the store of ctOS—the central operating system which monitored Chicago."
             },
             {
                 "image": "ctos02.png",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "description": "The website was time-lined base and played like a video for the user. You could sit back and watch the story unfold. Each section, or chapter, of the \"video\" was deep linked and has animated transitions for the presentation and exit states."
             },
             {
                 "image": "ctos03.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "My role on the project was to develop a few of the chapters in the website on top of the timeline framework that was implemented by my colleague at IB. Along with the chapters, I also built a reusable text scramble class which you can see being used throughout the website. In the end Impossible Bureau was able to deliver an award winning website under a tight timeline."
             }
         ]
     },
@@ -127,7 +127,7 @@
         "layout": [
             {
                 "image": "nick01.jpg",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Perhaps the most challenging application I worked on was the Nick App for Nickelodeon Digital in 2013. This was my first large-production iOS application and also a pivotal point in my career as I was making the transition from a junior to intermediate engineer. My Objective-C experience was limited at the time, but myself and the rest of the Fantasy team were able to go heads down and build the Emmy-award winning iPad application."
             }
         ]
     },
@@ -139,15 +139,15 @@
         "layout": [
             {
                 "image": "mfj01.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Messages for Japan is still my favorite project that I've worked on in my career. The website was for a good cause and was linked on the google.com homepage for some time. This was also my first JavaScript project built from scratch, so there was a lot of learning involved in getting this website to production and up-to-par with the Google and Fantasy standards."
             },
             {
                 "image": "mfj02.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "My role on the project was development. I worked with a couple of other engineers to get this website out the door. The backend was built using a slimed down version of Django on top of Google's App Engine deployment system. With my AS3 Pure MVC experience, I built a FSM on the frontend which handled transitions between animated components on each page."
             },
             {
                 "image": "mfj03.jpg",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "All-in-all the project was delivered in a short amount of time. A lot of late nights went into this project, but the result was a website which allowed users from around the globe to send messages of hope to the victims and families who were impacted by the 2011 tsunami in Japan. This website would go on to win the prestigious FWA — Site of the Day award, which at the time (Flash days) was not common for a HTML website."
             }
         ]
     }
