@@ -7,15 +7,15 @@
         "layout": [
             {
                 "image": "sse01.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "SaltStack Enterprise is the award-winning enterprise application that leverages the powerful features of the Salt open-source project. As a Senior Engineer on the SaltStack Enterprise UI team, I've been a core contributor to the many features that SaltStack Enterprise offers."
             },
             {
                 "image": "sse02.png",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "description": "The move from version 5 to version 6 presented many challenges. There was the introduction of a new component system, feature enhancements and additions, as well as a heavy framework migration. In the end, my team and I were able to release a quality product on time and deliver on our commitments."
             },
             {
                 "image": "sse03.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "I'm still an engineer at SaltStack and I have the pleasure to continually lead in the efforts of new feature development."
             }
         ]
     },
@@ -27,15 +27,15 @@
         "layout": [
             {
                 "image": "pom01.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Impossible Bureau was approached to develop the new pomwonderful.com website. The design was ambitious, the timeline was tight, but in the end pomwonderful.com ended up being one of the most fun projects I've worked on."
             },
             {
                 "image": "pom02.png",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "description": "Taking advantage of React's modularity, I built the navigation framework which would ingest JSON files that were used to populate each view. The files were validated using JSON Schema, which would run as an automated test in our CI pipeline. We went with raw JSON for the data because the CMS for the website was being developed by POM in AEM in parallel. The POM team and IB agreed on a data contract which ended up working flawlessly when pomwonderful.com launched."
             },
             {
                 "image": "pom03.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "PixiJS was used to take advantage of the WebGL context in the HTML5 Canvas for the more advanced animations, we used TweenMax and CSS3 for the more simple transitions and hover states. The hard work and attention to detail paid off when pomwonderful.com was a winner of CSS Awards."
             }
         ]
     },
@@ -47,15 +47,15 @@
         "layout": [
             {
                 "image": "waw01.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Impossible Bureau is known in the industry for their design and creative technology. During the winter of 2016, we decided to build an internal project, Wind and Words which paid homage to one of our favorite HBO shows, The Game of Thrones."
             },
             {
                 "image": "waw02.png",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "description": "Part of my role on the project was architecting a url-driven, transition framework. This framework introduced hooks for animating in and out between pages. I leveraged the Facebook Dispatcher (the precursor to Redux), to take advantage of the Flux pattern.Each page will transition differently based on whether you're navigating from season to season, episode to episode, or section to menu."
             },
             {
                 "image": "waw03.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "The transitions used the WebGL context in PixJS. We chose Pixi because it presented an interface that was similar to the AS3 DisplayObject API that we were all familiar with from our days in flash. In our free time from the project's inception we were able to launch an award-winning internal project that caught the eyes of several businesses. The result: more awards under our belt and some exciting and new projects to work on."
             }
         ]
     },
@@ -67,15 +67,15 @@
         "layout": [
             {
                 "image": "cm01.jpg",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Cheetosmuseum.com was easily one of my favorite projects or be a part of. The design was simple and clean. The application was fun. I was able to work with great agencies in the process."
             },
             {
                 "image": "cm02.jpg",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "description": "The idea behind this project was users would upload photos of cheetos that looked like things. Once registered you would be able to upload and vote for your favorite cheeto masterpiece."
             },
             {
                 "image": "cm03.jpg",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "My role on this project was building out some of the main pages in the UI. This project was also my introduction to Redux, which was prefect for this stateful application."
             }
         ]
     },
@@ -83,19 +83,19 @@
         "projectId": "impossible-bureau",
         "year": "2014",
         "role": "Lead Engineer",
-        "stack": "ES5, TweenMax, ThreeJS",
+        "stack": "Coffeescript, TweenMax, ThreeJS",
         "layout": [
             {
                 "image": "ib01.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Impossiblebureau.com was probably the first website that I was heavily invested in. It was the introduction of a new brand for the agency, probably the first website that used a pink and purple gradient, and my first project as an Associate Technical Director."
             },
             {
                 "image": "ib02.png",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "description": "We went with Coffeescript for the project. I built a navigation framework that was URL-driven and used a FSM to determine which route goes to what page. All routes are caught using the HTML5 History API and routed to their destination using this approach."
             },
             {
                 "image": "ib03.png",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "description": "Perhaps the most noteworthy piece of the project is the studio page. I brought in my XBox Kinnect and did 3D scans of each employee. The scans were exported to JSON and pulled in using ParticleSaga, a particle transition library built by one of the other engineer at IB."
             }
         ]
     },
