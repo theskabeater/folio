@@ -19,7 +19,7 @@ const routes: Routes = [
             )
     },
     {
-        path: "work",
+        path: "selected-work",
         loadChildren: () =>
             import("./work/work.module").then(module => module.WorkModule)
     },

@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
     selector: "app-header",
     template: `
         <div class="branding">
-            <a routerLink="/" class="nav-link">
+            <a clrVerticalNavLink routerLink="/">
                 <span class="title">
                     Eric Moncada
                 </span>

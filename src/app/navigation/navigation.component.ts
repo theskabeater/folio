@@ -25,11 +25,11 @@ type WorkNavItem = WorkData & Partial<Project>;
             Résumé
         </a>
         <clr-vertical-nav-group routerLinkActive="active">
-            Work
+            Selected Work
             <clr-vertical-nav-group-children>
                 <a
                     *ngFor="let item of workNavItems$ | async"
-                    [routerLink]="'/work/' + item.projectId"
+                    [routerLink]="'/selected-work/' + item.projectId"
                     routerLinkActive="active"
                     clrVerticalNavLink
                 >

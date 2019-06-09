@@ -25,6 +25,11 @@ type Work = WorkData & Project;
                     <app-icon-item iconShape="computer">
                         {{ project.stack }}
                     </app-icon-item>
+                    <app-icon-item iconShape="link">
+                        <a [href]="project.projectUrl" target="_blank">
+                            {{ project.projectUrlType }}
+                        </a>
+                    </app-icon-item>
                 </p>
             </ng-container>
             <ng-container wide>

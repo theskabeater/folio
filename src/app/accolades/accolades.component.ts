@@ -24,9 +24,9 @@ interface Awarder extends AccoladeData {
                     [config]="contentListConfig"
                 >
                     <ng-template let-award #subheader>
-                        <p class="credits p8 credits">
-                            <i>{{ award.projectCredits }}</i>
-                        </p>
+                        <i class="credits p8 credits">{{
+                            award.projectCredits
+                        }}</i>
                     </ng-template>
                     <ng-template let-award #content>
                         <app-icon-item iconShape="star">
