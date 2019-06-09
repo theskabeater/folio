@@ -13,24 +13,29 @@ import {Component} from '@angular/core';
                 </p>
                 <figure class="me"></figure>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Originally from Southern California, in 2010 I moved to Salt
+                    Lake City, Utah in pursuit of a career in software
+                    development. Since then I've had the privilege to work with
+                    some of the very best engineers in the digital-agency scene.
+                    I've also been able to do work for some of the world's
+                    largest brands including: Google, PepsiCo, Viacom and
+                    Microsoft.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    This website showcases some of the projects that I've been a
+                    part of. I've also included my
+                    <a [routerLink]="'/resume'">résumé</a> just in case you were
+                    curious 😉
+                </p>
+                <p>
+                    Feel free to checkout my
+                    <a href="https://github.com/theskabeater" target="_blank"
+                        >GitHub</a
+                    >
+                    page which has some personal projects that I'm working on,
+                    including this portfolio. Feel free to
+                    <a href="mailto:me@ericmoncada.com">email</a> me if you have
+                    any questions.
                 </p>
             </ng-container>
         </app-content>

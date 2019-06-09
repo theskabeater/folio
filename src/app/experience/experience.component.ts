@@ -12,14 +12,19 @@ import {DataService} from '../shared/services/data.service';
             <ng-container skinny>
                 <h2>Experience</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Below is a chart which represents some of the tech I've used
+                    over my career as a software engineer. The horizontal line
+                    represents the estimated, accumulative value of each
+                    technology used over time in years.
+                </p>
+                <p>
+                    The idea is to show the breadth of tech I've used as a
+                    software engineer. Javascript in the frontend dev ecosystem
+                    is by far my strongest skill. I've used (in production) and
+                    am a fan of a lot of the popular frontend frameworks
+                    including: React, Angular and Vue. But before the framework
+                    invasion, I've built plenty of component based, URL and
+                    state driven, single page applications.
                 </p>
             </ng-container>
             <ng-container wide>
@@ -40,6 +45,25 @@ import {DataService} from '../shared/services/data.service';
                         ></ngx-charts-bar-horizontal>
                     </div>
                 </div>
+            </ng-container>
+        </app-content>
+        <app-content>
+            <ng-container skinny>
+                <p>
+                    The majority of my career has been building design oriented,
+                    visually aesthetic web applications for some of the largest
+                    brands in the world. Recently, I've taken the jump to
+                    product development—which I'm quite enjoying.
+                </p>
+                <p>
+                    Product development has forced me to take a step back from
+                    the fast-paced and short dev cycles common in the agency
+                    world to the more methodical, process oriented world of
+                    product development and design. With this change in pace,
+                    I've spent a lot of time learning new programming patterns
+                    that allow the flexibility and modularity needed in product
+                    development.
+                </p>
             </ng-container>
         </app-content>
     `,

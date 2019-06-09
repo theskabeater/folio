@@ -11,6 +11,12 @@ import {DataService} from '../shared/services/data.service';
         <app-content>
             <ng-container skinny>
                 <h2>Résumé</h2>
+                <br />
+                <app-icon-item iconShape="link">
+                    <a href="/assets/eric-moncada-resume.pdf" target="_blank">
+                        Download
+                    </a>
+                </app-icon-item>
                 <app-content-list
                     [items]="resume$ | async"
                     [config]="contentListConfig"
