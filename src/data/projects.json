@@ -1,86 +1,100 @@
 [
     {
+        "id": "sse",
+        "name": "SaltStack Enterprise",
+        "urlType": "Product",
+        "url": "https://www.saltstack.com/products/saltstack-enterprise/",
+        "credits": "SaltStack"
+    },
+    {
         "id": "wind-and-words",
         "name": "Wind and Words",
         "urlType": "Website",
         "url": "http://beta.wind-and-words.com/",
-        "credits": ["Impossible Bureau"]
+        "credits": "Impossible Bureau"
     },
     {
         "id": "pom-wonderful",
         "name": "Pom Wonderful",
         "urlType": "Website",
         "url": "http://www.pomwonderful.com",
-        "credits": ["Impossible Bureau", "The Wonderful Company"]
+        "credits": "Impossible Bureau, The Wonderful Company"
+    },
+    {
+        "id": "cheetos-museum",
+        "name": "Cheetos Museum",
+        "urlType": "Website",
+        "url": "https://www.cheetosmuseum.ca/",
+        "credits": "Impossible Bureau, HYFN, Frito-Lay"
     },
     {
         "id": "impossible-bureau",
         "name": "Impossible Bureau",
         "urlType": "Website",
         "url": "http://www.impossible-bureau.com/",
-        "credits": ["Impossible Bureau"]
+        "credits": "Impossible Bureau"
     },
     {
         "id": "watch-dogs",
         "name": "Watch Dogs ctOS",
         "urlType": "Website",
         "url": "http://chicago-ctos.com/",
-        "credits": ["Impossible Bureau", "Ignition Creative", "Ubisoft"]
+        "credits": "Impossible Bureau, Ignition Creative, Ubisoft"
     },
     {
         "id": "nick-app",
         "name": "The Nick App",
         "urlType": "Agency Case Study",
         "url": "https://fantasy.co/work/nickelodeon",
-        "credits": ["Fantasy", "Nickelodeon Digital"]
+        "credits": "Fantasy, Nickelodeon Digital"
     },
     {
         "id": "sony-connected-world",
         "name": "Sony Connected World",
         "urlType": "Agency Case Study (archived)",
         "url": "https://web.archive.org/web/20131013040130/http://www.f-i.com/sony/connected-world/",
-        "credits": ["Fantasy", "Sony"]
+        "credits": "Fantasy, Sony"
     },
     {
         "id": "nickelodeon-kca",
         "name": "Nickelodeon Kids Choice Awards App",
         "urlType": "Agency Case Study (archived)",
         "url": "https://web.archive.org/web/20130314233643/http://www.f-i.com/nickelodeon/kids-choice-awards/",
-        "credits": ["Fantasy", "Nickelodeon Digital"]
+        "credits": "Fantasy, Nickelodeon Digital"
     },
     {
         "id": "broadway",
         "name": "Broadway.com iPad App",
         "urlType": "Agency Case Study",
         "url": "https://fantasy.co/work/broadway",
-        "credits": ["Fantasy", "Broadway.com"]
+        "credits": "Fantasy, Broadway.com"
     },
     {
         "id": "project-rebrief",
         "name": "Google Project Re: Brief",
         "urlType": "Agency Case Study (archived)",
         "url": "https://web.archive.org/web/20120822114851/http://www.f-i.com/google/rebrief/",
-        "credits": ["Fantasy", "Google"]
+        "credits": "Fantasy, Google"
     },
     {
         "id": "porsche-everyday",
         "name": "Porsche Everyday",
         "urlType": "Agency Case Study (archived)",
         "url": "https://web.archive.org/web/20120505063157/http://struck.com/work/porsche-everyday",
-        "credits": ["Struck", "Cramer-Krasselt", "Porsche"]
+        "credits": "Struck, Cramer-Krasselt, Porsche"
     },
     {
         "id": "messages-for-japan",
         "name": "Google Messages for Japan",
         "urlType": "Agency Case Study (archived)",
         "url": "https://web.archive.org/web/20110701215316/http://www.f-i.com/googlejapan/messagesforjapan/",
-        "credits": ["Fantasy", "Google"]
+        "credits": "Fantasy, Google"
     },
     {
         "id": "cannes-heatmap",
         "name": "Google Cannes Heatmap",
         "urlType": "Agency Case Study (archived)",
         "url": "https://web.archive.org/web/20130312114505/http://www.f-i.com/google/heatmap/",
-        "credits": ["Fantasy", "Google"]
+        "credits": "Fantasy, Google"
     }
 ]

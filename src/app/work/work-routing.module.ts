@@ -10,7 +10,7 @@ const routes: Routes = [
         component: WorkComponent,
         children: [
             {
-                path: "pom-wonderful",
+                path: ":projectId",
                 component: ProjectComponent
             }
         ]

@@ -1,22 +1,14 @@
 import {Component} from '@angular/core';
-import * as _ from 'lodash';
 import {combineLatest} from 'rxjs';
 import {map} from 'rxjs/operators';
 
 import {Config} from '../shared/models/content-list.model';
-import {AccoladeData, AwardData, ProjectData} from '../shared/models/data.model';
+import {AccoladeData, AwardData, Project} from '../shared/models/data.model';
 import {DataService} from '../shared/services/data.service';
-import {parseCredits} from '../shared/utils/data.utils';
-
-interface Award extends AwardData {
-    projectName: ProjectData["name"];
-    projectUrlType: ProjectData["urlType"];
-    projectUrl: ProjectData["url"];
-    projectCredits: string;
-}
+import {getProject} from '../shared/utils/data.utils';
 
 interface Awarder extends AccoladeData {
-    awards: Array<Award>;
+    awards: Array<Project & AwardData>;
 }
 
 @Component({
@@ -71,16 +63,14 @@ export class AccoladesComponent {
                 rawAccoladesData.map(rawAccoladeData => ({
                     ...rawAccoladeData,
                     awards: rawAccoladeData.awards.map(award => {
-                        const project: ProjectData = _.find(rawProjectData, {
-                            id: award.projectId
-                        });
+                        const project = getProject(
+                            award.projectId,
+                            rawProjectData
+                        );
 
                         return {
                             ...award,
-                            projectName: project.name,
-                            projectUrlType: project.urlType,
-                            projectUrl: project.url,
-                            projectCredits: parseCredits(project.credits)
+                            ...project
                         };
                     })
                 }))

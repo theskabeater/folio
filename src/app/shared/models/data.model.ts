@@ -2,7 +2,6 @@ export interface WorkData {
     projectId: ProjectData["id"];
     year: string;
     role: string;
-    awards: Array<string>;
     layout: Array<LayoutData>;
 }
 
@@ -16,7 +15,7 @@ export interface ProjectData {
     name: string;
     url: string;
     urlType: string;
-    credits: Array<string>;
+    credits: string;
 }
 
 export interface AccoladeData {
@@ -45,4 +44,11 @@ export interface ResumeData {
     stack: string;
     description?: string;
     list?: Array<string>;
+}
+
+export interface Project {
+    projectName: ProjectData["name"];
+    projectUrlType: ProjectData["urlType"];
+    projectUrl: ProjectData["url"];
+    projectCredits: string;
 }

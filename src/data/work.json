@@ -1,10 +1,29 @@
 [
     {
+        "projectId": "sse",
+        "year": "2018 - Present",
+        "role": "Senior Engineer",
+        "stack": "Angular 7, TypeScript, RxJS",
+        "layout": [
+            {
+                "image": "sse01.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "image": "sse02.png",
+                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "image": "sse03.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    },
+    {
         "projectId": "pom-wonderful",
-        "year": "2016",
+        "year": "2017",
         "role": "Lead Engineer",
         "stack": "React, Redux, PixiJS, JSON Schema, Webpack",
-        "awards": ["awwwards"],
         "layout": [
             {
                 "image": "pom01.png",
@@ -21,12 +40,75 @@
         ]
     },
     {
-        "company": "Ignition Creative"
+        "projectId": "wind-and-words",
+        "year": "2017",
+        "role": "Lead Engineer",
+        "stack": "React, Flux (Facebook Dispatcher), PixiJS, Webpack",
+        "layout": [
+            {
+                "image": "waw01.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "image": "waw02.png",
+                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "image": "waw03.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
     },
     {
-        "company": "Fantasy"
+        "projectId": "cheetos-museum",
+        "year": "2017",
+        "role": "Senior Engineer",
+        "stack": "React, Redux, TweenMax",
+        "layout": [
+            {
+                "image": "cm01.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "image": "cm02.jpg",
+                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "image": "cm03.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
     },
     {
-        "company": "Struck"
+        "projectId": "impossible-bureau",
+        "year": "2014",
+        "role": "Lead Engineer",
+        "stack": "ES5, TweenMax, ThreeJS",
+        "layout": [
+            {
+                "image": "ib01.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "image": "ib02.png",
+                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "image": "ib03.png",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    },
+    {
+        "projectId": "nick-app",
+        "year": "2013",
+        "role": "Developer",
+        "stack": "iOS",
+        "layout": [
+            {
+                "image": "nick01.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
     }
 ]

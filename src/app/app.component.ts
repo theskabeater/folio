@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
     selector: "app-root",
     template: `
         <clr-main-container>
-            <clr-header class="header-2">
+            <clr-header>
                 <app-header></app-header>
             </clr-header>
             <div class="content-container">
