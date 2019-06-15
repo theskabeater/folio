@@ -132,6 +132,38 @@
         ]
     },
     {
+        "projectId": "fakeblock",
+        "year": "2013",
+        "role": "Lead Engineer",
+        "stack": "iOS, Android, PhoneGap",
+        "layout": [
+            {
+                "image": "fb01.jpg",
+                "description": "Ignition Creative hired me to build the promo-app FakeBlock for the Netflix incarnation of the indie television show Arrested Development. In the tv show, George Michael (Michael Cera) builds the app as a way of paying homage to his favorite instrument—the wood block."
+            },
+            {
+                "image": "fb02.png",
+                "description": "Due to the short timeline, I used the mobile framework PhoneGap to build the application for iOS and Android. FakeBlock users would interact with the application by tapping a faux-wood block. Each tap would play a random wood-knocking sound. Hidden content would be unlocked based on the amount of times the block was tapped. The content included video clips and exclusive images from the Netflix tv-show."
+            },
+            {
+                "image": "fb03.png",
+                "description": "This app was a lot of fun to build. Super simple, cross-platform and I was able to contribute a small part to a television series I was a fan of. Overall, just a fun, silly project."
+            }
+        ]
+    },
+    {
+        "projectId": "nick-app",
+        "year": "2013",
+        "role": "Engineer",
+        "stack": "iOS",
+        "layout": [
+            {
+                "image": "nick01.jpg",
+                "description": "Perhaps the most challenging application I worked on was the Nick App for Nickelodeon Digital in 2013. This was my first large-production iOS application and also a pivotal point in my career as I was making the transition from a junior to intermediate engineer. My Objective-C experience was limited at the time, but myself and the rest of the Fantasy team were able to go heads down and build the Emmy-award winning iPad application."
+            }
+        ]
+    },
+    {
         "projectId": "messages-for-japan",
         "year": "2011",
         "role": "Junior Engineer",
