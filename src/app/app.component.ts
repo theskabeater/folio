@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {NavigationEnd, Router} from '@angular/router';
 
 @Component({
     selector: "app-root",
@@ -26,4 +27,14 @@ import {Component} from '@angular/core';
         `
     ]
 })
-export class AppComponent {}
+export class AppComponent {
+    constructor(private router: Router) {
+        this.router.events.subscribe(event => {
+            if (event instanceof NavigationEnd) {
+                window["gtag"]("config", "UA-141730595-1", {
+                    page_path: event.urlAfterRedirects
+                });
+            }
+        });
+    }
+}
