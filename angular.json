@@ -17,8 +17,13 @@
             "prefix": "app",
             "architect": {
                 "build": {
-                    "builder": "@angular-devkit/build-angular:browser",
+                    "builder": "@angular-builders/custom-webpack:browser",
                     "options": {
+                        "customWebpackConfig": {
+                            "path": "./webpack.config.js",
+                            "mergeStrategies": { "plugins": "replace" },
+                            "replaceDuplicatePlugins": true
+                        },
                         "outputPath": "dist/folio",
                         "index": "src/index.html",
                         "main": "src/main.ts",
@@ -45,9 +50,9 @@
                                 }
                             ],
                             "optimization": true,
-                            "outputHashing": "all",
+                            "outputHashing": "none",
                             "sourceMap": false,
-                            "extractCss": true,
+                            "extractCss": false,
                             "namedChunks": false,
                             "aot": true,
                             "extractLicenses": true,

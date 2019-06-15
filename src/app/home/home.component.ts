@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 
+import {fileHash} from '../shared/utils/app.utils';
+
 @Component({
     selector: "app-home",
     template: `
@@ -11,7 +13,10 @@ import {Component} from '@angular/core';
                     Software Engineer currently working at
                     <strong>SaltStack</strong>.
                 </p>
-                <figure class="me"></figure>
+                <figure
+                    class="me"
+                    [style.backgroundImage]="backgroundImage"
+                ></figure>
                 <p>
                     Originally from Southern California, in 2010 I moved to Salt
                     Lake City, Utah in pursuit of a career in software
@@ -46,7 +51,6 @@ import {Component} from '@angular/core';
                 width: 150px;
                 height: 150px;
                 overflow: hidden;
-                background-image: url(/assets/images/me.jpg);
                 background-repeat: no-repeat;
                 background-size: contain;
                 border-radius: 50%;
@@ -57,4 +61,6 @@ import {Component} from '@angular/core';
         `
     ]
 })
-export class HomeComponent {}
+export class HomeComponent {
+    backgroundImage = `url('/assets/images/me${fileHash}.jpg')`;
+}

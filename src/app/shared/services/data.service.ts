@@ -4,6 +4,7 @@ import {Observable} from 'rxjs';
 import {shareReplay} from 'rxjs/operators';
 
 import {AccoladeData, ExperienceData, ProjectData, WorkData} from '../models/data.model';
+import {fileHash} from '../utils/app.utils';
 
 @Injectable({
     providedIn: "root"
@@ -19,7 +20,7 @@ export class DataService {
 
     private getData<T>(file: string) {
         return this.http
-            .get(`/data/${file}.json`)
+            .get(`/data/${file}${fileHash}.json`)
             .pipe(shareReplay()) as Observable<Array<T>>;
     }
 }

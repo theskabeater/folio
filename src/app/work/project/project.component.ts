@@ -4,6 +4,7 @@ import {combineLatest} from 'rxjs';
 import {map} from 'rxjs/operators';
 import {Project, WorkData} from 'src/app/shared/models/data.model';
 import {DataService} from 'src/app/shared/services/data.service';
+import {fileHash} from 'src/app/shared/utils/app.utils';
 import {getProject, getWork} from 'src/app/shared/utils/data.utils';
 
 type Work = WorkData & Project;
@@ -37,7 +38,7 @@ type Work = WorkData & Project;
                     <figure class="card-block">
                         <img
                             class="project-image"
-                            [src]="'/assets/images/' + item.image"
+                            [src]="item.image | call: getImageSrc"
                         />
                         <figcaption class="p3">
                             {{ item.description }}
@@ -82,4 +83,7 @@ export class ProjectComponent {
         public data: DataService,
         private readonly route: ActivatedRoute
     ) {}
+
+    protected readonly getImageSrc = (filename: string) =>
+        `/assets/images/${filename.split(".").join(`${fileHash}.`)}`;
 }
