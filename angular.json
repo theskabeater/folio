@@ -25,7 +25,6 @@
                             "replaceDuplicatePlugins": true
                         },
                         "outputPath": "dist",
-                        "baseHref": "/folio/",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
