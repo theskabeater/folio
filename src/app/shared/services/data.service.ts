@@ -20,7 +20,7 @@ export class DataService {
 
     private getData<T>(file: string) {
         return this.http
-            .get(`/data/${file}${fileHash}.json`)
+            .get(`./data/${file}${fileHash}.json`)
             .pipe(shareReplay()) as Observable<Array<T>>;
     }
 }

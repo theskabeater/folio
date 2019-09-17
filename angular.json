@@ -24,7 +24,8 @@
                             "mergeStrategies": { "plugins": "replace" },
                             "replaceDuplicatePlugins": true
                         },
-                        "outputPath": "dist/folio",
+                        "outputPath": "dist",
+                        "baseHref": "/folio/",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
