@@ -62,5 +62,5 @@ import {fileHash} from '../shared/utils/app.utils';
     ]
 })
 export class HomeComponent {
-    backgroundImage = `url('/assets/images/me${fileHash}.jpg')`;
+    backgroundImage = `url('./assets/images/me${fileHash}.jpg')`;
 }

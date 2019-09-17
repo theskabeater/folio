@@ -85,5 +85,5 @@ export class ProjectComponent {
     ) {}
 
     protected readonly getImageSrc = (filename: string) =>
-        `/assets/images/${filename.split(".").join(`${fileHash}.`)}`;
+        `./assets/images/${filename.split(".").join(`${fileHash}.`)}`;
 }
