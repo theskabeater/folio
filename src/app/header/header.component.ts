@@ -37,7 +37,7 @@ import {Component} from '@angular/core';
             }
 
             .header-actions .nav-link {
-                padding: 0 0.5rem;
+                padding: 0.75rem 0.5rem;
             }
 
             :host .nav-link:hover fa {
